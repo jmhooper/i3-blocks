@@ -1,0 +1,26 @@
+interval=5
+signal=10
+
+[weather]
+command=ruby ~/.i3/blocks/weather.rb
+interval=90
+
+[battery]
+command=ruby ~/.i3/blocks/battery.rb
+interval=10
+
+[network]
+command=ruby ~/.i3/blocks/network.rb
+interval=1
+
+[volume]
+command=ruby ~/.i3/blocks/volume.rb
+interval=1
+
+[time]
+command=date "+%Y-%m-%d %H:%M:%S"
+interval=1
+
+[gr8day]
+command=echo "Have a great day :)"
+color=#1793d1
