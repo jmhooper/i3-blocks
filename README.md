@@ -1,3 +1,5 @@
+![Screenshot of my i3bar](https://raw.githubusercontent.com/jmhooper/i3-blocks/master/screenshot.png)
+
 This project contains the Ruby scripts I use with i3blocks as well as the configuration for my status line which uses them.
 
 It is assumed that you have the following installed:
