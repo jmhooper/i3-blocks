@@ -19,7 +19,7 @@ Simply clone this repo to `~/.i3/blocks`:
 git clone https://github.com/jmhooper/i3-blocks.git ~/.i3/blocks
 ```
 
-Then update you i3 configuration to call out to i3 bar with the config file:
+Then update your i3 configuration to call out to i3 bar with the config file:
 
 ```
 bar {
@@ -35,29 +35,29 @@ This is what the blocks do:
 
 ## weather
 
-This block displays the weather for Baton Rouge, LA. Change the `LOCATION` variable to get the weather for a different location.
+This block displays the weather for Baton Rouge, LA. Change the `LOCATION` in variable in `weather.rb` to get the weather for a different location.
 
 ## battery
 
-Displays the status of the battery as well as how much battery is remaing.
+This block displays the status of the battery as well as how much battery is remaing.
 
 ## network
 
-Displays IP address of the wired network connection.
+This block displays the IP address of the wired network connection.
 When clicked, this block opens your wicd client.
 
-My machine that uses i3 does not use wireless so I've never gotten around to setting this up to show the status of the wireless network.
-Presumably that will come one I setup i3 on a machine with a wireless network.
+My machine that uses i3 does not have a wireless antenna so I've never gotten around to setting this up to show the status of the wireless network.
+Presumably that will come once I setup i3 on a machine than can connect to a wireless network.
 
 ## volume
 
-Display the current volume.
-When clicked this opens pavucontrol.
+This block displays the current volume.
+When clicked it opens pavucontrol.
 
 ## time
 
-Displays the current time.
+This block displays the current time.
 
 ## gr8day
 
-Reminds you to have a great day!
+This block reminds you to have a great day!
